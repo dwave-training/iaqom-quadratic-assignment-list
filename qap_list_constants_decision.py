@@ -8,6 +8,7 @@ Given constants:
     flow_matrix (array): A 3x3 array representing the flow between facilities.
     num_facilities (int): Number of facilities.
 """
+
 # Import any required packages.
 import numpy as np
 from dwave.optimization import Model

@@ -18,17 +18,22 @@ model = Model()
 
 # Define the constants.
 # Distance Matrix: the distance between locations.
-distance_matrix = np.array([[0, 2, 3],
-                            [1, 0, 5],
-                            [4, 6, 0]
-                            ])
+distance_matrix = np.array(
+    [
+        [0, 2, 3],
+        [1, 0, 5],
+        [4, 6, 0]
+    ]
+)
 
 # Flow Matrix: the flow between facilities.
-flow_matrix = np.array([
-                        [0, 5, 2],
-                        [4, 0, 1],
-                        [3, 6, 0]
-                        ])
+flow_matrix = np.array(
+    [
+        [0, 5, 2],
+        [4, 0, 1],
+        [3, 6, 0]
+    ]
+)
 
 # Total number of facilities.
 num_facilities = distance_matrix.shape[0]
@@ -37,5 +42,5 @@ num_facilities = distance_matrix.shape[0]
 distance = model.constant(distance_matrix)
 flow = model.constant(flow_matrix)
 
-# Define the list variable and store it in order.
+# Define the list variable and store it in `order`.
 order = model.list(num_facilities)

@@ -20,7 +20,7 @@ In `qap_list_constants_decision.py`, do the following:
    
    2. Create a nonlinear model object called `model`.
 
-   3. Define the constants:
+   3. Define the following constants:
       - `distance_matrix`: the distance between locations.
       - `flow_matrix`: the flow between facilities.
       - `num_facilities`: the total number of facilities.

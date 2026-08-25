@@ -2,7 +2,7 @@
   https://img.shields.io/badge/Open%20in%20GitHub%20Codespaces-333?logo=github)](
   https://codespaces.new/dwave-training/iaqom-quadratic-assignment-list?quickstart=1)
   
-# Quadratic Assignment Problem With Stride<sup>TM</sup> Hybrid Solver Using a List Variable
+# Quadratic Assignment Problem With the Stride<sup>TM</sup> Hybrid Solver Using a List Variable
 
 For the quadratic assignment problem (QAP), use a list symbol to represent the decision variable. Convert the mathematical formulation into a Python model suitable for submission to the Stride hybrid solver.
 
@@ -14,7 +14,7 @@ The code in the repo is intended to help you answer the quiz questions in the on
 
 In this quiz, create the model object, define the problem constants, add the constants to the model object, and define the decision variable symbol.
 
-Open `qap_list_constants_decision.py`.
+In `qap_list_constants_decision.py`, do the following:
 
    1. Import the relevant package(s).
    

@@ -10,22 +10,6 @@ The objective is to minimize the total cost of interaction between facilities. T
 
 The code in the repo is intended to help you answer the quiz questions in the online course and, thus, does not contain any `TODO` sections.
 
-## Quiz: Coding QAP
+## Quiz: Coding the QAP
 
-In this quiz, create the model object, define the problem constants, add the constants to the model object, and define the decision variable symbol.
-
-In `qap_list_constants_decision.py`, do the following:
-
-   1. Import the relevant package(s).
-   
-   2. Create a nonlinear model object called `model`.
-
-   3. Define the following constants:
-      - `distance_matrix`: the distance between locations.
-      - `flow_matrix`: the flow between facilities.
-      - `num_facilities`: the total number of facilities.
-    
-   4. Add the constants to the model object.
-
-   5. Create a list symbol to represent the decision variable and store it in `order`.
-   
+Open and review `qap_list_constants_decision.py` to answer the questions in the course quiz Coding the QAP.   
